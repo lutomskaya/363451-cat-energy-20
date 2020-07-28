@@ -1,0 +1,27 @@
+.contacts-map {
+  width: 320px;
+}
+
+.contacts__title {
+  @include text (16px, 18px);
+  font-family: $oswald;
+  text-transform: uppercase;
+  color: $special-black;
+}
+
+.contacts__text {
+  @include text (14px, 20px);
+  color: $color-gray;
+}
+
+.map {
+  position: relative;
+}
+
+.map__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

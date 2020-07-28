@@ -1,0 +1,11 @@
+.product__link {
+  @include text (16px, 20px);
+  font-family: $oswald;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.product__item {
+  @include text (12px, 16px);
+  color: $color-gray;
+}

@@ -1,0 +1,13 @@
+.catalog {
+  width: 320px;
+  text-align: center;
+}
+
+.catalog__title {
+  @include text (36px, 36px);
+  font-family: $oswald;
+}
+
+.catalog__list {
+  @include reset;
+}

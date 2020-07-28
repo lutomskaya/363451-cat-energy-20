@@ -1,0 +1,17 @@
+.show__title {
+  @include text (16px, 20px);
+  font-family: $oswald;
+  color: $special-black;
+  text-transform: uppercase;
+}
+
+.show__text {
+  @include text (12px, 16px);
+  color: $color-gray;
+}
+
+.show__button {
+  background-color: $basic-gray;
+  color: $color-gray;
+  font-family: $oswald;
+}
