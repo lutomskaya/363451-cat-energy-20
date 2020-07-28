@@ -1,0 +1,17 @@
+.form-group__label,
+.form-group__input {
+  @include text (16px, 18px);
+  font-family: $oswald;
+  text-transform: uppercase;
+  color: $color-gray;
+
+  &--radio,
+  &--checkbox {
+    color: $black;
+  }
+}
+
+.form-group__title {
+  @include text (24px, 26px);
+  font-family: $oswald;
+}

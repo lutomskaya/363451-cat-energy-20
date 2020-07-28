@@ -1,0 +1,43 @@
+.page__body {
+  margin: 0;
+  padding: 0;
+
+  font-family: $arial;
+  font-size: 14px;
+  line-height: 18px;
+
+  background-color: $basic-white;
+  box-sizing: border-box;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $basic-white;
+  background-color: $basic-green;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.example {
+  width: 320px;
+  background-color: $background-example;
+}
+
+.example__title {
+  @include text (36px, 40px);
+  font-family: $oswald;
+}
+
+.example__text {
+  @include text (14px, 18px);
+  color: $color-gray;
+}
+
+.example__numbers {
+  @include text (24px, 24px);
+  font-family: $oswald;
+  text-transform: uppercase;
+}
+
+.example__description {
+  @include text (12px, 12px);
+  color: $color-gray;
+}
+
+.example__outlay {
+  @include text (14px, 20px);
+  font-family: $oswald;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.example-slider__list {
+  @include reset;
+}
+
+.example-slider__button {
+  @include text (16px, 20px);
+  background-color: transparent;
+  font-family: $oswald;
+  text-transform: uppercase;
+  border: none;
+}
+
+.example__scale {
+  width: 84px;
+  height: 14px;
+  border: 1px solid $border-scale;
+  border-radius: 6px;
+}
+
+.example__bar {
+  margin: 4px;
+  background-color: $basic-green;
+  width: 42%;
+  height: 6px;
+  border-radius: 6px;
+}

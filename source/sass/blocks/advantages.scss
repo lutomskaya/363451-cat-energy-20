@@ -1,0 +1,17 @@
+.advantages {
+  width: 320px;
+}
+
+.advantages__title {
+  @include text (36px, 40px);
+  font-family: $oswald;
+}
+
+.advantages__list {
+  @include reset;
+}
+
+.advantages__text {
+  @include text (14px, 18px);
+  color: $color-gray;
+}

@@ -1,0 +1,12 @@
+.sale {
+  min-height: 289px;
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sale__text {
+  @include text (16px, 20px);
+  color: $basic-white;
+  text-align: center;
+}

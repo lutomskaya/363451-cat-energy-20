@@ -1,0 +1,26 @@
+.promo {
+  width: 320px;
+}
+
+.promo__header {
+  min-height: 305px;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  color: $basic-white;
+  text-align: center;
+}
+
+.promo__title {
+  @include title (36px, 36px);
+}
+
+.promo-text {
+  @include text (14px, 14px);
+  font-family: $oswald;
+  text-transform: uppercase;
+}
+
+.promo__button {
+  margin: 0 20px;
+  margin-top: 150px;
+}

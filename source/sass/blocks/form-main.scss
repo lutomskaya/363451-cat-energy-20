@@ -1,0 +1,15 @@
+.form-main__title {
+  @include text (36px, 36px);
+  font-family: $oswald;
+}
+
+.form-main__text {
+  @include text (14px, 18px);
+  font-family: $oswald;
+  text-transform: uppercase;
+}
+
+.form-main__button {
+  width: 280px;
+  border: none;
+}

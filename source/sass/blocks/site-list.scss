@@ -1,0 +1,15 @@
+.site-list {
+  @include reset;
+}
+
+.site-list__item {
+  text-align: center;
+  border-top: 1px solid $border-color-top;
+}
+
+.site-list__link {
+  @include title (20px, 20px);
+  font-family: $oswald;
+  text-transform: uppercase;
+  color: $basic-black;
+}
