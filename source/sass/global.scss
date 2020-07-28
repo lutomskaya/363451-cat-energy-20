@@ -32,6 +32,14 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 100%;
+  min-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .button {
   display: block;
   padding: 12px;
