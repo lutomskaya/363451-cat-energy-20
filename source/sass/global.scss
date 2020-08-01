@@ -38,6 +38,14 @@ a {
   padding: 0 20px;
   margin: 0 auto;
   box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1150px;
+  }
 }
 
 .button {

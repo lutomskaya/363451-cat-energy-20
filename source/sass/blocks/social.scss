@@ -1,6 +1,21 @@
 .social__list {
   @include reset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-top: 1px solid $border-color-bottom;
   border-bottom: 1px solid $border-color-bottom;
   padding: 20px 0;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
+}
+
+.social__item {
+  margin-right: 36px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }

@@ -1,3 +1,21 @@
 .page-footer {
-  width: 320px;
+  background-color: $basic-gray;
+}
+
+.page-footer__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.page-footer__logo {
+  width: 128px;
+  height: 24px;
+  padding-top: 40px;
+  text-align: center;
 }
