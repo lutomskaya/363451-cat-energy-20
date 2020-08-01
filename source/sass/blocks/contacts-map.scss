@@ -1,5 +1,22 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  min-height: 115px;
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    padding: 40px 89px 0 76px;
+    min-height: 201px;
+    width: 570px;
+    top: 95px;
+    left: 110px;
+    background-color: $basic-white;
+    z-index: 2;
+  }
+}
+
 .contacts-map {
-  width: 320px;
+  position: relative;
 }
 
 .contacts__title {
@@ -7,11 +24,18 @@
   font-family: $oswald;
   text-transform: uppercase;
   color: $special-black;
+  width: 140px;
+
+  @media (min-width: $tablet-width) {
+    @include text (20px, 21px);
+    padding-top: 5px;
+  }
 }
 
 .contacts__text {
   @include text (14px, 20px);
   color: $color-gray;
+  width: 140px;
 }
 
 .map {
@@ -24,4 +48,23 @@
   left: 0;
   width: 100%;
   height: 100%;
+  border: none;
+}
+
+.contacts__pin {
+  position: absolute;
+  top: 43%;
+  right: 46%;
+  width: 57px;
+  height: 53px;
+
+  @media (min-width: $tablet-width) {
+    top: 42%;
+    right: 48%;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 40%;
+    right: 48.5%;
+  }
 }

@@ -1,4 +1,19 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .copyright__name {
   @include text (16px, 18px);
   color: $color-gray;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 24px;
+  }
+}
+
+.copyright__icon {
+  width: 27px;
+  height: 34px;
 }
